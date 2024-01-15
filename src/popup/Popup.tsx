@@ -10,12 +10,18 @@ async function getCurrentTab() {
 
 // Define the function that will be executed in the context of the webpage
 function getElement() {
-  const elements = document.getElementsByClassName('p-heading-with-content');
-  alert(elements.length);
-  alert(elements[0].textContent);
+  const innerHTML = document.body.innerHTML
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+
+  alert('innerHTML:' + innerHTML);
+
+  const elements = document.getElementsByClassName('div#:1v');
+  alert('elements:' + elements.length + elements[0].textContent);
   if (elements.length > 0) {
     const text = elements[0].textContent; // or any other property you need
-    alert(text);
+    alert('text:' + text);
     return text;
   }
   return null; // Return null or appropriate value if the element is not found

@@ -1,10 +1,9 @@
 <div align="center">
   <br>
- <img src="https://raw.githubusercontent.com/sinanbekar/browser-extension-react-typescript-starter/main/public/images/extension_128.png" alt="Browser Extension React & TypeScript Starter" width="128">
+ <img src="https://raw.githubusercontent.com/hidenari-yuda/chattune/main/public/images/extension_128.png" alt="ChatTune Is A Browser Extension That Helps You To Thinking About Your Next Message While Chatting" width="128">
   <br>
   <h2>
-    Browser Extension <br>
-    React & TypeScript Starter
+    ChatTune Is A Browser Extension That Helps You To Thinking About Your Next Message While Chatting
     <br>
   </h2>
 </div>
@@ -13,15 +12,15 @@
 <hr />
 
 <div align="center" >
-  <a href="https://github.com/sinanbekar/browser-extension-react-typescript-starter/actions">
-    <img src="https://github.com/sinanbekar/browser-extension-react-typescript-starter/actions/workflows/ci.yml/badge.svg" alt="CI">
+  <a href="https://github.com/hidenari-yuda/chattune/actions">
+    <img src="https://github.com/hidenari-yuda/chattune/actions/workflows/ci.yml/badge.svg" alt="CI">
   </a>
     &nbsp;
   <a>
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
   </a>
     &nbsp;
-  <a href="https://github.com/sinanbekar/browser-extension-react-typescript-starter/blob/main/LICENSE">
+  <a href="https://github.com/hidenari-yuda/chattune/blob/main/LICENSE">
     <img src="https://img.shields.io/apm/l/atomic-design-ui.svg" alt="MIT License">
   </a>
 
@@ -31,10 +30,7 @@
   <a href="#features">Features</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#important-notes">Important Notes</a> ·
-  <a href="#license">License</a>
 </p>
-
-> 🚀 **NEW** (experimental) Zustand for state management instead Redux, with [`webext-zustand`](https://github.com/sinanbekar/webext-zustand) package. You can try it now on the branch [`experimental-zustand`](https://github.com/sinanbekar/browser-extension-react-typescript-starter/tree/experimental-zustand)
 
 ## Features
 
@@ -76,22 +72,12 @@ Ensure you have
 - [Node.js](https://nodejs.org) 16 or later installed
 - [Yarn](https://yarnpkg.com) installed
 
-### Use the Template
-
-#### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/sinanbekar/browser-extension-react-typescript-starter/generate).
-
-**_or_**
-
-#### Clone to local
-
 If you prefer to do it manually with the cleaner git history
 
 > **Note** If you don't have yarn installed, run: npm install -g yarn
 
 ```bash
-npx degit sinanbekar/browser-extension-react-typescript-starter my-web-extension
+npx degit hidenari-yuda/chattune my-web-extension
 cd my-web-extension
 git init
 ```
@@ -135,13 +121,3 @@ You can use redux (redux-toolkit) as state manager between popup, background, co
 > **Note** This plugin powers the development side of this starter.
 >
 > docs: https://crxjs.dev/vite-plugin
->
-> Special thanks to [@jacksteamdev](https://github.com/jacksteamdev) and contributors for this amazing plugin.
-
-## Contributing
-
-This repository is following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
-
-## License
-
-MIT © [Sinan Bekar](https://sinan.engineer)

@@ -5,6 +5,20 @@ async function getCurrentTab() {
   const queryOptions = { active: true, lastFocusedWindow: true };
   // `tab` will either be a `tabs.Tab` instance or `undefined`.
   const [tab] = await chrome.tabs.query(queryOptions);
+  alert('cur tab' + tab);
+
+  chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
+    const { url, title } = tabs[0];
+    // const videoId = getVideoId(url);
+    // const thumbnailUrl = getThumbnailUrl(videoId, 'hqdefault');
+    // displayThumbnail('youtube-thumbnail-getter-thumbnail-img', thumbnailUrl);
+
+    console.log('url : ', url);
+    // console.log('videoId : ', videoId);
+    // console.log('thumbnailUrl : ', thumbnailUrl);
+    alert('cur tab when' + url + title);
+  });
+
   return tab;
 }
 
@@ -19,6 +33,7 @@ function getElement() {
 
   const elements = document.getElementsByClassName('div#:1v');
   alert('elements:' + elements.length + elements[0].textContent);
+
   if (elements.length > 0) {
     const text = elements[0].textContent; // or any other property you need
     alert('text:' + text);
@@ -45,7 +60,6 @@ const Popup = () => {
         alert('No active tab found');
         return;
       }
-      alert('tab' + tab.id);
       const result = chrome.scripting.executeScript(
         {
           func: () => console.log('Hello, world!'),

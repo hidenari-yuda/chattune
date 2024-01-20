@@ -130,4 +130,7 @@ This repository is following the [Conventional Commits](https://www.conventional
 ## License
 
 MIT © [Sinan Bekar](https://sinan.engineer)
+
 MIT © [Hidenari Yuda](https://spaceai.jp)
+
+This Repository is forked from [browser-extension-react-typescript-starter](https://github.com/sinanbekar/browser-extension-react-typescript-starter) by [Sinan Bekar](https://sinan.engineer)

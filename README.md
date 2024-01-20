@@ -12,8 +12,8 @@
 <hr />
 
 <div align="center" >
-  <a href="https://github.com/hidenari-yuda/chattune/actions">
-    <img src="https://github.com/hidenari-yuda/chattune/actions/workflows/ci.yml/badge.svg" alt="CI">
+  <a href="https://github.com/sinanbekar/browser-extension-react-typescript-starter/actions">
+    <img src="https://github.com/sinanbekar/browser-extension-react-typescript-starter/actions/workflows/ci.yml/badge.svg" alt="CI">
   </a>
     &nbsp;
   <a>
@@ -30,6 +30,7 @@
   <a href="#features">Features</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#important-notes">Important Notes</a> ·
+  <a href="#license">License</a>
 </p>
 
 ## Features
@@ -121,3 +122,12 @@ You can use redux (redux-toolkit) as state manager between popup, background, co
 > **Note** This plugin powers the development side of this starter.
 >
 > docs: https://crxjs.dev/vite-plugin
+
+## Contributing
+
+This repository is following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+
+## License
+
+MIT © [Sinan Bekar](https://sinan.engineer)
+MIT © [Hidenari Yuda](https://spaceai.jp)
